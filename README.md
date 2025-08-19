@@ -26,6 +26,7 @@ ZonaFitSpring/
      ├── ZonaFitApplication.java → Clase principal (Spring Boot)
      └── ZonaFitSwing.java       → Lanzador de la aplicación de escritorio
 
+
 🔹 Módulos principales
 
 modelo
@@ -55,6 +56,7 @@ spring.datasource.username=usuario
 spring.datasource.password=contraseña
 spring.jpa.hibernate.ddl-auto=update
 
+
 ▶️ Ejecución
 
 Clonar el repositorio
@@ -63,11 +65,13 @@ git clone https://github.com/usuario/ZonaFitSpring.git
 cd ZonaFitSpring
 
 
+
 Configurar la base de datos MySQL en application.properties.
 
 Ejecutar la aplicación:
 
 mvn spring-boot:run
+
 
 
 La aplicación se abrirá con la interfaz gráfica ZonaFit.
